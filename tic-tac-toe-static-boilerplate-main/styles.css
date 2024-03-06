@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: blue; /* Set the background color to blue */
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .heading {
+    margin-bottom: 20px; /* Add some space between heading and grid */
+    color: yellow; /* Set the text color to yellow */
+    text-shadow: 2px 2px 4px #fff; /* Add white shadow for highlight effect */
+    font-size: 3.5em; /* Increase the size of the heading */
+  }
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: white; /* Set the background color of the cell to white */
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none; /* Remove the border */
+  }
+  
+  .cell:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .credits {
+    color:white; /* Set the text color to red */
+    margin-top: 20px; /* Add space between the box and credits */
+    font-size: 2.0em;
+  }
+  
